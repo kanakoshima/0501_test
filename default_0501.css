@@ -1,0 +1,118 @@
+/*
+長さ…px, em, %, rem
+html {
+  font-size: 32px;
+}
+
+h1 {
+  font-size: 50%;
+  }
+
+span {
+  font-size: 75%
+  }
+
+色…rgba, hsl
+rgb(000, 000, 000);
+
+
+*/
+html {
+  font-size: 8px;
+  font-family: "メイリオ", sans-serif;}
+
+h1{font-size:3rem;
+  color: hsla(250, 100%, 20%, 0.8);}
+
+h2{font-size:2rem;
+  color: hsla(250, 100%, 20%, 0.8);}
+
+/*div {
+width: 100px;
+height: 50px;
+background: rgb(10, 90, 0);
+margin-bottom: 20px;
+position:absolute;
+top: 150px;
+left: 150px;
+-webkit-animation-name: slidein;
+-webkit-animation-duration: 1.5s;
+-webkit-animation-timing-function: ease;
+-webkit-animation-delay: .1s;
+-webkit-animation-iteration-count: infinite;
+-webkit-animation-direction: alternate;
+
+}
+@-webkit-keyframes slidein{
+  0%{
+    margin-left: 100%;
+    background: skyblue;
+  }
+  70%{
+    margin-left: 10%;
+    background: red;
+  }
+
+}
+
+
+
+
+/*
+div {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  background: hsla(150, 50%, 50%, 0.8) url('151013_緑子ども.gif');
+}
+*/
+
+/*#box1 {
+  background: skyblue;
+  opacity: .5;}
+
+#box2 {
+  background: orange;
+  opacity: .5;
+  transform: translate(120px, -100px);
+  transform: skew(10deg, 20deg);
+  transform: rotate(10deg);
+  transform-origin: 0 0;
+}
+
+#box3 {
+  background: hsla(210, 100%, 80%, 0.4);
+  transform: rotate(20deg);
+  transform-origin: 0 0;
+}
+
+#box4 {
+  background: hsla(230, 100%, 10%, 0.4);
+  transform: rotate(30deg);
+  transform-origin: 0 0;
+}
+
+img {
+  width: 20%;
+  height: 30%;
+}
+*/
+
+/*div:hover{
+  width: 500px;
+  height: 300px;
+  background: rgb(30, 200, 0);
+  transition-property: all;
+  transition-duration: 5s;
+  transition-timing-function: ease;
+  transition-delay: 0.3s;
+  background: blue;*/
+}
+
+/*
+a[href$=".com/"]{ color: gold; }
+a[href*=".google"]{ color: orange; }
+li:nth-child(odd) { background: violet; color: white; }
+p:first-of-type{ background: skyblue; }
+h2:only-of-type{ background: yellow; }
+input[type="checkbox"]:checked + label { background: skyblue; }*/
